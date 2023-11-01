@@ -13,22 +13,16 @@ Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.c
 #### Run The App Locally
 
 ```sh
-npm run install && npm start
+npm install && npm run dev
 ```
 
-- visit url http://localhost:3000/
+- visit url http://localhost:5173/
 
 #### Setup React App
 
 ```sh
 
-npx create-react-app myApp
-
-```
-
-```sh
-
-npx create-react-app@latest myApp
+npm create vite@latest
 
 ```
 
@@ -37,18 +31,12 @@ npx create-react-app@latest myApp
 
 #### 1) Spring Cleaning
 
-- in src remove
-- App.css
-- App.test.js
-- logo.svg
-- reportWebVitals.js
-- setupTests.js
-- fix App.js and index.js
+- remove unnecessary boilerplates
 
 #### 2) Title and Favicon
 
 - change title in public/index.html
-- replace favicon.ico in public
+- replace favicon.ico
 - resource [Generate Favicons](https://favicon.io/)
 
 #### 3) Normalize.css and Global Styles
@@ -74,7 +62,6 @@ npm install normalize.css
 
 #### 4) Landing Page - Setup
 
-- zoom level 175%
 - markdown preview extension
 - get something on the screen
 - react router and styled components right after
